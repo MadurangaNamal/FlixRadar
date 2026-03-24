@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <title>FlixRadar</title>
+</head>
+<body>
+    <div class="search-container">
+        <h1>🎬 Movie Search</h1>
+        <input type="text" class="search-box" placeholder="Search for movies (e.g., Batman, Inception)..."
+            id="searchInput">
+        <div class="typing-indicator" id="typingIndicator">
+        </div>
+        <div class="stats">
+            <span id="resultCount">
+            </span>
+            <span id="requestStats">
+            </span>
+        </div>
+        <div class="results" id="results">
+        </div>
+    </div>
+
+    <script type="module" src="./src/js/main.js"></script>
+    <script src="./src/js/dashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "flixradar",
+  "version": "1.0.0",
+  "description": "Real Time Movie Search Dashboard Built with Asynchronous JavaScript",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadurangaNamal/FlixRadar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MadurangaNamal/FlixRadar/issues"
+  },
+  "homepage": "https://github.com/MadurangaNamal/FlixRadar#readme",
+  "devDependencies": {
+    "vite": "^8.0.1"
+  }
+}
